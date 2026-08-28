@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Shop - Women's Collection</title>
+    <link rel="stylesheet" href="tail/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+  <nav class="fixed top-0 left-0 w-full z-50 bg-blue-500 text-white italic pb-4 pt-3 px-4 md:px-12 shadow-md">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 md:gap-0">
+      <h1 class="font-bold text-xl text-center md:text-left">Raj shop</h1>
+      <ul class="flex flex-wrap justify-center md:justify-end gap-4 sm:gap-6 md:gap-10 text-sm sm:text-base">
+        <li class="hover:text-black transition-transform duration-200 font-bold"><a href="index.html">Home</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="man.html">man</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="woman.html">women</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="user.html">user</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="admin.html">admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+
+
+  <main class="p-4 pt-28 md:pt-24 flex-grow max-w-7xl mx-auto w-full">
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-500 pl-3">Women's Tops & Dresses</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+  
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60" alt="Stylish Yellow Top">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Stylish Yellow Top</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.8</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 450</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Stylish Yellow Top', 450, 'top')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=500&auto=format&fit=crop&q=60" alt="Elegant Floral Dress">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Elegant Floral Dress</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.7</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 850</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Elegant Floral Dress', 850, 'top')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+   
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=500&auto=format&fit=crop&q=60" alt="Knitwear Sweater">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Knitwear Sweater</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.5</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 650</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Knitwear Sweater', 650, 'top')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=500&auto=format&fit=crop&q=60" alt="Casual White Top">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Casual White Top</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.6</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 390</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Casual White Top', 390, 'top')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+  
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&auto=format&fit=crop&q=60" alt="Party Mini Dress">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Party Mini Dress</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.9</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 990</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Party Mini Dress', 990, 'top')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-500 pl-3">Women's Outerwear & Blazers</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+  
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://plus.unsplash.com/premium_photo-1675186049366-64a655f8f537?w=500&auto=format&fit=crop&q=60" alt="Executive Red Blazer">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Executive Red Blazer</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.9</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1150</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Executive Red Blazer', 1150, 'outerwear')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1513094735237-8f2714d57c13?w=500&auto=format&fit=crop&q=60" alt="Long Winter Overcoat">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Long Winter Overcoat</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.7</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1400</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Long Winter Overcoat', 1400, 'outerwear')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1618244972963-dbee1a7edc95?w=500&auto=format&fit=crop&q=60" alt="Classic Trench Coat">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Classic Trench Coat</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.8</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1250</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Classic Trench Coat', 1250, 'outerwear')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1544441893-675973e31985?w=500&auto=format&fit=crop&q=60" alt="Casual Woolen Coat">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Casual Woolen Coat</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.4</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 980</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Casual Woolen Coat', 980, 'outerwear')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500&auto=format&fit=crop&q=60" alt="Denim Biker Jacket">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Denim Biker Jacket</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.6</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1050</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Denim Biker Jacket', 1050, 'outerwear')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-500 pl-3">Women's Footwear</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=60" alt="High Heel Sandals">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">High Heel Sandals</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.8</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1250</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('High Heel Sandals', 1250, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1560343090-f0409e92791a?w=500&auto=format&fit=crop&q=60" alt="Casual White Sneaker">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Casual White Sneaker</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.7</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 950</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Casual White Sneaker', 950, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?w=500&auto=format&fit=crop&q=60" alt="Leather Ankle Boots">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Leather Ankle Boots</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.9</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1600</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Leather Ankle Boots', 1600, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?w=500&auto=format&fit=crop&q=60" alt="Comfortable Flat Shoes">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Comfortable Flat Shoes</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.5</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 720</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Comfortable Flat Shoes', 720, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1581101767113-1677fc2beaa8?w=500&auto=format&fit=crop&q=60" alt="Pink Sport Sneaker">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Pink Sport Sneaker</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.6</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1100</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="women('Pink Sport Sneaker', 1100, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <div id="orderModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 p-4">
+    <div class="bg-white rounded-lg p-6 max-w-md w-full shadow-xl">
+      <h3 class="text-xl font-bold mb-2 text-gray-800">Checkout Order</h3>
+      <p id="modalProductName" class="text-blue-600 mb-4 font-semibold"></p>
+      
+      <form onsubmit="submitOrder(event)" class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Full Name</label>
+          <input type="text" id="custName" placeholder="Enter your name" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Phone Number</label>
+          <input type="tel" id="custPhone" placeholder="017XXXXXXXX" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        
+  
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Select Size</label>
+          <select id="custSize" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Quantity</label>
+          <input type="number" id="custQty" min="1" value="1" onchange="updateTotalPrice()" onkeyup="updateTotalPrice()" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        
+        <div class="flex justify-between items-center pt-2">
+          <span class="font-bold text-gray-700">Total Price:</span>
+          <span id="totalPriceText" class="text-xl font-bold text-blue-600">৳ 0</span>
+        </div>
+        <div class="flex gap-2 pt-3">
+          <button type="button" onclick="closeOrderModal()" class="w-1/2 py-2 bg-gray-300 hover:bg-gray-400 text-gray-800 rounded-lg transition-colors">Cancel</button>
+          <button type="submit" class="w-1/2 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-medium transition-colors">Confirm Order</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+ <footer class="bg-blue-400 text-white py-8 px-6 mt-auto">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div>
+        <h1 class="text-xl font-bold mb-2">Raj shop</h1>
+        <p class="text-sm">Best quality products</p>
+      </div>
+
+      <div>
+        <h1 class="text-xl font-bold mb-2">Categories</h1>
+        <ul class="text-sm space-y-1">
+          <li><a href="man.html" class="hover:underline">Men's Collection</a></li>
+          <li><a href="woman.html" class="hover:underline">Women's Collection</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h1 class="text-xl font-bold mb-2">Contact Us</h1>
+        <p class="text-sm">Email : raj682209@gmail.com</p>
+        <p class="text-sm">01882569245</p>
+      </div>
+
+      <div>
+        <h1 class="text-xl font-bold mb-2">Newsletter</h1>
+        <div class="flex flex-col sm:flex-row gap-2">
+          <input type="email" placeholder="Enter your email" required class="w-full px-3 py-2 bg-gray-800 text-white text-sm rounded-lg border border-gray-700 focus:outline-none focus:border-blue-500">
+          <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-medium px-4 py-2 rounded-lg text-sm transition-colors whitespace-nowrap">Sign up</button>
+
+        </div>
+      </div>
+
+    </div>
+          <img src="raj.jpg" alt="" class="w-20 h-20 rounded-full object-cover border-2 border-white">
+
+    <div class="pt-5 flex gap-3">
+      <a href="https://www.facebook.com/raj.kumar.276175" target="_blank" class="inline-flex items-center justify-center w-16 h-16 text-xl text-blue-600 hover:text-blue-800 transition-colors">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/raj-kumar-70172b354" target="_blank" class="inline-flex items-center justify-center w-16 h-16  text-xl text-blue-700 hover:text-blue-900 transition-colors">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://youtube.com/@rajkumar2025-q7p" target="_blank" class="inline-flex items-center justify-center w-16 h-16 text-xl text-red-600 hover:text-red-800 transition-colors">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </footer>
+
+  <div class="text-center py-4 bg-blue-500 text-white text-sm">
+    <p>&copy; Raj Das 2026</p>
+  </div>
+
+  <script src="women.js"></script>
+</body>
+</html>

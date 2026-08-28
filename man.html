@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Shop - Men's Collection</title>
+    <link rel="stylesheet" href="tail/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+
+  <nav class="fixed top-0 left-0 w-full z-50 bg-blue-500 text-white italic pb-4 pt-3 px-4 md:px-12 shadow-md">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 md:gap-0">
+      <h1 class="font-bold text-xl text-center md:text-left">Raj shop</h1>
+      <ul class="flex flex-wrap justify-center md:justify-end gap-4 sm:gap-6 md:gap-10 text-sm sm:text-base">
+        <li class="hover:text-black transition-transform duration-200 font-bold"><a href="index.html">Home</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="man.html">man</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="woman.html">women</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="user.html">user</a></li>
+        <li class="hover:text-black transition-transform duration-200"><a href="admin.html">admin</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main class="p-4 pt-28 md:pt-24 flex-grow max-w-7xl mx-auto w-full">
+
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-500 pl-3">Men's Shirts</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=500&auto=format&fit=crop&q=60" alt="Casual Blue Shirt">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Casual Blue Shirt</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.6</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 420</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Casual Blue Shirt', 420, 'shirt')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1602810320073-1230c46d89d4?w=500&auto=format&fit=crop&q=60" alt="Executive Formal Shirt">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Executive Formal Shirt</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.8</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 550</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Executive Formal Shirt', 550, 'shirt')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500&auto=format&fit=crop&q=60" alt="White Cotton T-Shirt">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">White Cotton T-Shirt</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.5</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 250</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('White Cotton T-Shirt', 250, 'shirt')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1607345366928-199ea26cfe3e?w=500&auto=format&fit=crop&q=60" alt="Checkered Casual Shirt">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Checkered Casual Shirt</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.4</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 480</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Checkered Casual Shirt', 480, 'shirt')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500&auto=format&fit=crop&q=60" alt="Slim Fit Denim Shirt">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Slim Fit Denim Shirt</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.7</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 590</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Slim Fit Denim Shirt', 590, 'shirt')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-500 pl-3">Men's Pants</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1718252540617-6ecda2b56b57?w=500&auto=format&fit=crop&q=60" alt="Slim Fit Denim Jeans">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Slim Fit Denim Jeans</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.7</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 890</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Slim Fit Denim Jeans', 890, 'pant')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&auto=format&fit=crop&q=60" alt="Casual Chino Pant">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Casual Chino Pant</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.4</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 650</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Casual Chino Pant', 650, 'pant')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&auto=format&fit=crop&q=60" alt="Formal Black Trouser">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Formal Black Trouser</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.6</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 720</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Formal Black Trouser', 720, 'pant')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=500&auto=format&fit=crop&q=60" alt="Stretchable Cargo Pant">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Stretchable Cargo Pant</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.5</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 820</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Stretchable Cargo Pant', 820, 'pant')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?w=500&auto=format&fit=crop&q=60" alt="Classic Blue Jeans">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Classic Blue Jeans</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.8</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 950</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Classic Blue Jeans', 950, 'pant')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 border-l-4 border-blue-500 pl-3">Men's Shoes</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&auto=format&fit=crop&q=60" alt="Casual White Sneaker">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Casual White Sneaker</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.9</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1200</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Casual White Sneaker', 1200, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?w=500&auto=format&fit=crop&q=60" alt="Formal Leather Shoes">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Formal Leather Shoes</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.7</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1650</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Formal Leather Shoes', 1650, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500&auto=format&fit=crop&q=60" alt="Puma Running Shoes">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Puma Running Shoes</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.6</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1350</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Puma Running Shoes', 1350, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&auto=format&fit=crop&q=60" alt="Colorful Sport Sneaker">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Colorful Sport Sneaker</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.5</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 950</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Colorful Sport Sneaker', 950, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+        <div class="bg-white p-3 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 flex flex-col justify-between">
+          <div>
+            <img class="w-full h-64 object-cover rounded-lg" src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=500&auto=format&fit=crop&q=60" alt="Nike Running Shoes">
+            <div class="mt-3">
+              <h2 class="text-base font-semibold text-gray-800 truncate">Nike Running Shoes</h2>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-yellow-500 text-sm">★ <span class="text-gray-600 font-medium">4.8</span></span>
+                <p class="text-lg font-bold text-blue-600">৳ 1450</p>
+              </div>
+            </div>
+          </div>
+          <button onclick="openOrderModal('Nike Running Shoes', 1450, 'shoe')" class="w-full mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 rounded-lg transition-colors">Order Now</button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Checkout Order Modal Popup -->
+
+  <div id="orderModal" class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50 p-4">
+    <div class="bg-white rounded-lg p-6 max-w-md w-full shadow-xl">
+      <h3 class="text-xl font-bold mb-2 text-gray-800">Checkout Order</h3>
+      <p id="modalProductName" class="text-blue-600 mb-4 font-semibold"></p>
+      
+      <form onsubmit="submitOrder(event)" class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Full Name</label>
+          <input type="text" id="custName" placeholder="Enter your name" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Phone Number</label>
+          <input type="tel" id="custPhone" placeholder="017XXXXXXXX" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Select Size</label>
+          <select id="custSize" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+         
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Quantity</label>
+          <input type="number" id="custQty" min="1" value="1" onchange="updateTotalPrice()" onkeyup="updateTotalPrice()" required class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        
+        <div class="flex justify-between items-center pt-2">
+          <span class="font-bold text-gray-700">Total Price:</span>
+          <span id="totalPriceText" class="text-xl font-bold text-blue-600">৳ 0</span>
+        </div>
+        <div class="flex gap-2 pt-3">
+          <button type="button" onclick="closeOrderModal()" class="w-1/2 py-2 bg-gray-300 hover:bg-gray-400 text-gray-800 rounded-lg transition-colors">Cancel</button>
+          <button type="submit" class="w-1/2 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-medium transition-colors">Confirm Order</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+ <footer class="bg-blue-400 text-white py-8 px-6 mt-auto">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div>
+        <h1 class="text-xl font-bold mb-2">Raj shop</h1>
+        <p class="text-sm">Best quality products</p>
+      </div>
+
+      <div>
+        <h1 class="text-xl font-bold mb-2">Categories</h1>
+        <ul class="text-sm space-y-1">
+          <li><a href="man.html" class="hover:underline">Men's Collection</a></li>
+          <li><a href="woman.html" class="hover:underline">Women's Collection</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h1 class="text-xl font-bold mb-2">Contact Us</h1>
+        <p class="text-sm">Email : raj682209@gmail.com</p>
+        <p class="text-sm">01882569245</p>
+      </div>
+
+      <div>
+        <h1 class="text-xl font-bold mb-2">Newsletter</h1>
+        <div class="flex flex-col sm:flex-row gap-2">
+          <input type="email" placeholder="Enter your email" required class="w-full px-3 py-2 bg-gray-800 text-white text-sm rounded-lg border border-gray-700 focus:outline-none focus:border-blue-500">
+          <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-medium px-4 py-2 rounded-lg text-sm transition-colors whitespace-nowrap">Sign up</button>
+
+        </div>
+      </div>
+
+    </div>
+          <img src="raj.jpg" alt="" class="w-20 h-20 rounded-full object-cover border-2 border-white">
+
+    <div class="pt-5 flex gap-3">
+      <a href="https://www.facebook.com/raj.kumar.276175" target="_blank" class="inline-flex items-center justify-center w-16 h-16 text-xl text-blue-600 hover:text-blue-800 transition-colors">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/raj-kumar-70172b354" target="_blank" class="inline-flex items-center justify-center w-16 h-16  text-xl text-blue-700 hover:text-blue-900 transition-colors">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://youtube.com/@rajkumar2025-q7p" target="_blank" class="inline-flex items-center justify-center w-16 h-16 text-xl text-red-600 hover:text-red-800 transition-colors">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </footer>
+
+  <div class="text-center py-4 bg-blue-500 text-white text-sm">
+    <p>&copy; Raj Das 2026</p>
+  </div>
+
+  <script src="man.js"></script>
+
+</body>
+</html>
